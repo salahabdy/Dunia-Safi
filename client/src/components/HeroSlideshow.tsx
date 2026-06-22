@@ -9,7 +9,7 @@ import { ChevronLeft, ChevronRight, Droplets } from "lucide-react";
 const slides = [
   {
     id: 0,
-    image: "/manus-storage/cream-soap-hero_2d3a845e.jpg",
+    image: "/images/hero-cream-soap.jpg",
     tagline: "Simply the Best",
     headline: "ONE SOAP.",
     headline2: "ENDLESS CLEAN.",
@@ -20,7 +20,7 @@ const slides = [
   },
   {
     id: 1,
-    image: "/manus-storage/white-soap-spa_8e61c0c9.jpg",
+    image: "/images/hero-white-soap.jpg",
     tagline: "Personal Care",
     headline: "CLEAN SKIN.",
     headline2: "CONFIDENT YOU.",
@@ -31,7 +31,7 @@ const slides = [
   },
   {
     id: 2,
-    image: "/manus-storage/nature-soap-green_92f5f825.jpg",
+    image: "/images/hero-nature-soap.jpg",
     tagline: "Multipurpose",
     headline: "SPARKLING",
     headline2: "CLEAN HOME.",

@@ -144,7 +144,7 @@ export default function AboutSection() {
           <div className="reveal-left relative">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="/manus-storage/about_branded_optimized_9912780c.jpg"
+                src="/images/about-section.jpg"
                 alt="Dunia Safi branded product showcase"
                 className="w-full h-[600px] object-cover object-top"
               />

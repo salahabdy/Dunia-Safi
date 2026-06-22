@@ -136,7 +136,7 @@ export default function UsesSection() {
         {/* Uses image banner */}
         <div className="rounded-3xl overflow-hidden mb-12 shadow-xl reveal">
           <img
-            src="/manus-storage/ChatGPTImageJun22,2026,12_17_38PM_08ba8dc8.png"
+            src="/images/uses-infographic.png"
             alt="Dunia Safi 4 uses"
             className="w-full h-64 md:h-80 object-cover"
           />

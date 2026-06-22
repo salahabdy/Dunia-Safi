@@ -80,7 +80,7 @@ VITE_ANALYTICS_ENDPOINT=https://manus-analytics.com
 VITE_ANALYTICS_WEBSITE_ID=your_analytics_id
 VITE_APP_ID=your_app_id
 VITE_APP_TITLE=Dunia Safi - Multipurpose Bar Soap
-VITE_APP_LOGO=https://dunia-safi.vercel.app/manus-storage/dunia-safi-logo_4911e785.webp
+VITE_APP_LOGO=https://dunia-safi.vercel.app/images/logo.webp
 OWNER_NAME=Your Name
 OWNER_OPEN_ID=your_open_id
 ```

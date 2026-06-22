@@ -16,7 +16,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <img
-              src="/manus-storage/dunia-safi-logo_4911e785.webp"
+              src="/images/logo.webp"
               alt="Dunia Safi"
               className="h-12 mb-4"
             />
@@ -74,7 +74,7 @@ export default function Footer() {
               { icon: Instagram, url: "https://www.instagram.com/duniasafii/", label: "Instagram" },
               { icon: Linkedin, url: "https://www.linkedin.com/company/pure-earth-enterprises-ltd/", label: "LinkedIn" },
               { icon: Twitter, url: "https://x.com/duniasafy?s=11", label: "Twitter" },
-              { icon: null, url: "https://www.tiktok.com/@duniasafi.ke", label: "TikTok", image: "/manus-storage/tiktokicon_145dd9f3.png" },
+              { icon: null, url: "https://www.tiktok.com/@duniasafi.ke", label: "TikTok", image: "/images/tiktok-icon.png" },
             ].map((social) => (
               <a
                 key={social.label}

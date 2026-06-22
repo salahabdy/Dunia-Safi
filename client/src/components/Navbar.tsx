@@ -85,7 +85,7 @@ export default function Navbar({ onCartOpen }: NavbarProps) {
             className="flex items-center gap-2"
           >
             <img
-              src="/manus-storage/dunia-safi-logo_4911e785.webp"
+              src="/images/logo.webp"
               alt="Dunia Safi Logo"
               className={`transition-all duration-300 ${scrolled ? "h-12" : "h-14"}`}
             />
@@ -157,7 +157,7 @@ export default function Navbar({ onCartOpen }: NavbarProps) {
         >
           <div className="p-6 pt-20">
             <img
-              src="/manus-storage/dunia-safi-logo_4911e785.webp"
+              src="/images/logo.webp"
               alt="Dunia Safi"
               className="h-12 mb-8"
             />

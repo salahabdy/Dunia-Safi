@@ -128,7 +128,7 @@ export default function ContactSection() {
                   { icon: Instagram, label: "Instagram", url: "https://www.instagram.com/duniasafii/", color: "hover:bg-pink-600" },
                   { icon: Linkedin, label: "LinkedIn", url: "https://www.linkedin.com/company/pure-earth-enterprises-ltd/", color: "hover:bg-blue-700" },
                   { icon: Twitter, label: "Twitter", url: "https://x.com/duniasafy?s=11", color: "hover:bg-sky-500" },
-                  { icon: null, label: "TikTok", url: "https://www.tiktok.com/@duniasafi.ke", color: "hover:bg-black", image: "/manus-storage/tiktokicon_145dd9f3.png" },
+                  { icon: null, label: "TikTok", url: "https://www.tiktok.com/@duniasafi.ke", color: "hover:bg-black", image: "/images/tiktok-icon.png" },
                 ].map((social) => (
                   <a
                     key={social.label}
@@ -151,7 +151,7 @@ export default function ContactSection() {
             {/* Brand tagline block */}
             <div className="mt-8 p-6 rounded-2xl bg-gradient-to-br from-red-600/20 to-green-600/10 border border-red-500/20 reveal delay-500">
               <img
-                src="/manus-storage/dunia-safi-logo_4911e785.webp"
+                src="/images/logo.webp"
                 alt="Dunia Safi"
                 className="h-14 mb-4"
               />

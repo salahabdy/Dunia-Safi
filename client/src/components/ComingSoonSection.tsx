@@ -35,15 +35,18 @@ export default function ComingSoonSection() {
     
     try {
       // Use Formspree to send email subscription
-      const formData = new FormData();
-      formData.append("email", email);
-      formData.append("_subject", "New Powder Soap Launch Subscriber");
-      formData.append("_captcha", "false");
-
-      const response = await fetch("https://formspree.io/f/xyzpqrst", {
-        method: "POST",
-        body: formData,
-      });
+      const response = await fetch("/api/contact", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify({
+    email,
+    name: "Newsletter Subscriber",
+    phone: "N/A",
+    message: "Subscribed to powder soap launch notifications",
+  }),
+});
 
       if (response.ok) {
         setSubmitted(true);

@@ -43,7 +43,7 @@ Output is in the `dist/` directory, ready for deployment to Vercel or any static
 client/
   src/
     pages/
-      Home.tsx           ← Main landing page
+      Home.tsx           ← Main  landing page
       NotFound.tsx       ← 404 page
     components/
       Navbar.tsx         ← Navigation header

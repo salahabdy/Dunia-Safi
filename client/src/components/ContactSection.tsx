@@ -43,10 +43,13 @@ export default function ContactSection() {
       formData.append("_subject", "New Contact Form Submission from Dunia Safi");
       formData.append("_captcha", "false");
 
-      const response = await fetch("https://formspree.io/f/xyzpqrst", {
-        method: "POST",
-        body: formData,
-      });
+     const response = await fetch("/api/contact", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify(form),
+});
 
       if (response.ok) {
         setSubmitted(true);

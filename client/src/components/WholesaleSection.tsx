@@ -48,14 +48,34 @@ export default function WholesaleSection() {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setIsSubmitting(true);
 
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
-      toast.success("Partnership inquiry sent! We'll contact you within 24 hours.");
+  try {
+    const response = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name: formData.contactName,
+        email: formData.email,
+        phone: formData.phone,
+        message: `
+Business Name: ${formData.businessName}
+Business Type: ${formData.businessType}
+Location: ${formData.location}
+Monthly Volume: ${formData.monthlyVolume}
+
+Message:
+${formData.message}
+        `,
+      }),
+    });
+
+    if (response.ok) {
+      toast.success("Partnership inquiry sent!");
       setFormData({
         businessName: "",
         businessType: "",
@@ -66,8 +86,15 @@ export default function WholesaleSection() {
         phone: "",
         message: "",
       });
-    }, 1000);
-  };
+    } else {
+      toast.error("Failed to send inquiry");
+    }
+  } catch {
+    toast.error("Failed to send inquiry");
+  }
+
+  setIsSubmitting(false);
+};
 
   const pathways = [
     {

@@ -36,7 +36,7 @@ export default function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
 
     const whatsappText = `Hi Pure Earth Enterprises!\n\nI'd like to place a bulk order:\n\n${message}\n\nTotal: KES ${total.toLocaleString()}\n\nPlease confirm availability and delivery details.`;
 
-    const whatsappUrl = `https://wa.me/254700000000?text=${encodeURIComponent(whatsappText)}`;
+    const whatsappUrl = `https://wa.me/254799953166?text=${encodeURIComponent(whatsappText)}`;
     window.open(whatsappUrl, "_blank");
   };
 

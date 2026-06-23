@@ -57,7 +57,7 @@ export default function LocationMap() {
               </p>
               <p className="font-body text-gray-600 text-sm">
                 📞 <a href="tel:+254799953166" className="text-red-600 hover:text-red-700 font-semibold">+254 799 953 166</a> | 
-                <a href="https://wa.me/254792666567" className="text-red-600 hover:text-red-700 font-semibold ml-2">+254 792 666 567</a>
+                <a href="https://wa.me/254799953166" className="text-red-600 hover:text-red-700 font-semibold ml-2">+254 799 953 166</a>
               </p>
               <p className="font-body text-gray-600 text-sm">
                 ✉️ <a href="mailto:info@duniasafi.com" className="text-red-600 hover:text-red-700 font-semibold">info@duniasafi.com</a>

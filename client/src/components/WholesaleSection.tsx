@@ -350,7 +350,7 @@ ${formData.message}
                 Call: 0799953166
               </a>
               <a
-                href="https://wa.me/message/AL2AMM7567CJB1"
+                href="https://wa.me/message/254799953166"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-all text-center font-medium"
